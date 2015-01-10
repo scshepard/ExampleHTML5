@@ -1,0 +1,1 @@
+Example collection of HTML5 stylesheet, modernizer 1.5 script demonstrating the difference between DIV and SPAN
