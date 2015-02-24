@@ -20,37 +20,43 @@
 	<header>
 		<h1>Header level 1 <img src="mhlogo.jpg" width="90" height="60" /></h1>
 	</header>
-
-	<section>
-		<article>
-			<!-- div specifies general grouping content-->
-			<div id= "Div1">
+	<nav>
+		<a href="#">Home</a>
+	</nav>
+	<main>
+		<section>
+			<article>
+				<!-- div specifies general grouping content-->
+				<div id= "Div1">
+					<p>
+						Here's a paragraph (paragraphs are Block Level) within Div1
+						
+						<!-- span marks text-level content -->
+						<span class="ExampleSpan">This text is within span (Text Level). </span>
+						Now we go back to regular paragraph
+						<br />
+					</p>
+				</div>
+				<figure>
+					<!-- remember, inline images are text level elements and are
+					placed in grouping elements -->
+					<img src="mhlogo.jpg" alt="MH Logo" />
+					<figcaption>Here's the caption to our Case 1 logo</figcaption>
+				</figure>
+			</article>
+			<article>
+				<h2>Header level 2</h2>
 				<p>
-					Here's a paragraph (paragraphs are Block Level) within Div1
-					
-					<!-- span marks text-level content -->
-					<span class="ExampleSpan">This text is within span (Text Level). </span>
-					Now we go back to regular paragraph
-					<br />
+					This is a sample paragraph
 				</p>
-			</div>
-			<figure>
-				<img src="mhlogo.jpg" alt="MH Logo" />
-				<figcaption>Here's the caption to our Case 1 logo</figcaption>
-			</figure>
-		</article>
-		<article>
-			<h2>Header level 2</h2>
-			<p>
-				This is a sample paragraph
-			</p>
-		</article>
-
-	</section>
-
-	<aside>
-		<h2>Header level 2, second </h2>
-	</aside>
+			</article>
+	
+		</section>
+	
+		<aside>
+			<h2>Header level 2, second </h2>
+		</aside>
+	</main>
 
 	<footer>
 	</footer>
